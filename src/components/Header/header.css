@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  padding: 0.75rem;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #5526fa;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.menu-icon {
+  font-size: 1.5rem;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.web-menu {
+  display: flex;
+}
+
+@media only screen and (max-width: 61.25rem) {
+  .mobile-menu {
+    display: flex;
+  }
+
+  .web-menu {
+    display: none;
+  }
+
+  .logo {
+    font-size: 1.75rem;
+  }
+}
+
+@media only screen and (max-width: 48rem) {
+  .logo {
+    font-size: 1.5rem;
+  }
+}
