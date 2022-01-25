@@ -8,27 +8,47 @@ function Mobile({ isOpen, setIsOpen }) {
       </div>
       <div className="mobile-links">
         <div className="mobile-link">
-          <a href="#about">
-            <i class="fi fi-rr-info link-icon"></i>About
-          </a>
+          <ul>
+            <li>
+              <i class="fi fi-rr-info link-icon"></i>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+          </ul>
         </div>
 
         <div className="mobile-link">
-          <a href="#skills">
-            <i class="fi fi-rr-list-check link-icon"></i>Skills
-          </a>
+          <ul>
+            <li>
+              <i class="fi fi-rr-list-check link-icon"></i>
+            </li>
+            <li>
+              <a href="#skills">Skills</a>
+            </li>
+          </ul>
         </div>
 
         <div className="mobile-link">
-          <a href="#projects">
-            <i class="fi fi-rr-copy-alt link-icon"></i>Projects
-          </a>
+          <ul>
+            <li>
+              <i class="fi fi-rr-copy-alt link-icon"></i>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+          </ul>
         </div>
 
         <div className="mobile-link">
-          <a href="#contact">
-            <i class="fi fi-rr-user link-icon"></i>Contact
-          </a>
+          <ul>
+            <li>
+              <i class="fi fi-rr-user link-icon"></i>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
