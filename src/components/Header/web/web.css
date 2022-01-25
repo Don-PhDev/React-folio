@@ -1,0 +1,42 @@
+.web {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.web-links {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.web-links:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.web-links a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #524f4f;
+
+  display: flex;
+  align-items: center;
+
+  transition: 300ms ease-in-out;
+}
+
+.link-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 0.4375rem;
+  color: black;
+}
+
+.web-links a:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 75rem) {
+  .web-links {
+    font-size: 0.875rem;
+  }
+}
