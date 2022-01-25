@@ -1,0 +1,52 @@
+.mobile {
+  background: white;
+  height: 40vh;
+  width: 40vw;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.close-icon {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.5rem;
+}
+
+.mobile-links {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mobile-link {
+  font-size: 1.5rem;
+  margin: 12px 0;
+}
+
+.mobile-link a {
+  text-decoration: none;
+  color: #524f4f;
+
+  display: flex;
+}
+
+@media only screen and (max-width: 61.25rem) {
+  .mobile {
+    padding: 15px 12px;
+  }
+}
+
+@media only screen and (max-width: 48rem) {
+  .mobile {
+    padding: 12px 12px;
+  }
+}
