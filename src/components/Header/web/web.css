@@ -4,16 +4,16 @@
   flex: 1;
 }
 
-.web-links {
+.web-link {
   font-size: 0.875rem;
   font-weight: 700;
 }
 
-.web-links:not(:last-child) {
+.web-link:not(:last-child) {
   margin-right: 1rem;
 }
 
-.web-links a {
+.web-link a {
   text-decoration: none;
   text-transform: uppercase;
   color: #524f4f;
@@ -31,12 +31,12 @@
   color: black;
 }
 
-.web-links a:hover {
+.web-link a:hover {
   color: black;
 }
 
 @media only screen and (max-width: 75rem) {
-  .web-links {
-    font-size: 0.875rem;
+  .web-link {
+    font-size: 0.8125rem;
   }
 }
