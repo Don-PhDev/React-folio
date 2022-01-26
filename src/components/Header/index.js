@@ -8,7 +8,9 @@ function Header() {
 
   return (
     <div className="header">
-      <div className="logo">Donforrest</div>
+      <div className="logo">
+        <a href="#">Donforrest</a>
+      </div>
       <div className="menu">
         <div className="web-menu">
           <Web />
