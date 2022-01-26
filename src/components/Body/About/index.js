@@ -1,3 +1,4 @@
+import Socials from "../../common/socials/index";
 import "./about.css";
 
 function About() {
@@ -22,7 +23,9 @@ function About() {
           />
         </div>
       </div>
-      <div className="about-bottom"></div>
+      <div className="about-bottom">
+        <Socials />
+      </div>
     </div>
   );
 }

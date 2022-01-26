@@ -44,6 +44,10 @@
 
 /* 1077px*/
 @media only screen and (max-width: 67.3125rem) {
+  .about-top {
+    margin-bottom: 1.75rem;
+  }
+
   .about-image {
     height: 18.75rem;
   }
