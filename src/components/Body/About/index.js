@@ -10,9 +10,8 @@ function About() {
             Hi 👋, I'm <span className="about-name">Don Forrest Usbal</span>
             <br />
             a 19-year-old from the Philippines. <br />
-            I've been programming since I was 16 years old, <br />
-            and up until now, my enjoyment and excitement <br />
-            seeing my programs work hasn't changed.
+            Specializing in building exceptional websites. <br />
+            Check out my latest <a href="#projects" className="projects-link">projects.</a>
           </div>
         </div>
         <div className="about-right">
