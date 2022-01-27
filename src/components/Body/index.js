@@ -2,6 +2,7 @@ import About from "./About/index";
 import Skills from "./Skills/index";
 import Projects from "./Projects/index";
 import Contact from "./Contact/index";
+import Separator from "../common/separator";
 import "./body.css";
 
 function Body() {
@@ -16,6 +17,7 @@ function Body() {
       </section>
 
       <section id="projects">
+        <Separator />
         <Projects />
       </section>
 
