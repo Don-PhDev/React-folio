@@ -1,7 +1,29 @@
+import { SkillData } from "../../data/skills";
+import SkillCard from "./skill-card";
 import "./skills.css";
 
 function Skills() {
-  return <div>This is Skill page</div>;
+  const data = SkillData;
+
+  return (
+    <div className="skills">
+      <label className="skills-header">Skills</label>
+      <div className="skills-container">
+        {data.map((skill) => {
+          return (
+            <div className="skills-section">
+              <label className="skill-type">{skill.type}</label>
+              <div className="skills-list">
+                {skill.list.map((skill) => {
+                  return <SkillCard skill={skill} />;
+                })}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
 }
 
 export default Skills;

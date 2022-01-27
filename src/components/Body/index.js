@@ -13,6 +13,7 @@ function Body() {
       </section>
 
       <section id="skills">
+        <Separator />
         <Skills />
       </section>
 

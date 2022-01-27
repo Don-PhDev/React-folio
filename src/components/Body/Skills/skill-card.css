@@ -1,0 +1,44 @@
+.skill-card {
+  width: max-content;
+  height: 7.5rem;
+  padding: 0.5rem 1rem;
+  margin: 0.375rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-icon {
+  font-size: 5rem;
+}
+
+.skill-name {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 61.25rem) {
+  .skill-card {
+    margin: 0;
+  }
+
+  .skill-icon {
+    font-size: 3.75rem;
+  }
+
+  .skill-name {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 39rem) {
+  .skill-icon {
+    font-size: 3.75rem;
+  }
+
+  .skill-name {
+    font-size: 0.875rem;
+  }
+}
