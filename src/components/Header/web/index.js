@@ -4,8 +4,8 @@ function Web() {
   return (
     <div className="web">
       <div className="web-link">
-        <a href="#about">
-          <i class="fi fi-rr-info link-icon"></i>About
+        <a href="#hero">
+          <i class="fi fi-rr-info link-icon"></i>Home
         </a>
       </div>
 

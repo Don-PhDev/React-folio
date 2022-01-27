@@ -13,7 +13,7 @@ function Mobile({ isOpen, setIsOpen }) {
               <i class="fi fi-rr-info link-icon"></i>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a href="#hero">Home</a>
             </li>
           </ul>
         </div>

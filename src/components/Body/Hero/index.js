@@ -1,32 +1,32 @@
 import Socials from "../../common/socials/index";
-import "./about.css";
+import "./hero.css";
 
-function About() {
+function Hero() {
   return (
-    <div className="about">
-      <div className="about-top">
-        <div className="about-left">
-          <div className="about-text">
-            Hi 👋, I'm <span className="about-name">Don Forrest Usbal</span>
+    <div className="hero">
+      <div className="hero-top">
+        <div className="hero-left">
+          <div className="hero-text">
+            Hi 👋, I'm <span className="hero-name">Don Forrest Usbal</span>
             <br />
             a 19-year-old from the Philippines. <br />
             Specializing in building exceptional websites. <br />
             Check out my latest <a href="#projects" className="projects-link">projects.</a>
           </div>
         </div>
-        <div className="about-right">
+        <div className="hero-right">
           <img
             src={require("../../../assets/programming.svg").default}
             alt="Programming illustration"
-            className="about-image"
+            className="hero-image"
           />
         </div>
       </div>
-      <div className="about-bottom">
+      <div className="hero-bottom">
         <Socials />
       </div>
     </div>
   );
 }
 
-export default About;
+export default Hero;
