@@ -1,0 +1,16 @@
+.projects {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.title {
+}
+
+/* 768 */
+@media only screen and (max-width: 48rem) {
+  .projects {
+    height: 100%;
+  }
+}

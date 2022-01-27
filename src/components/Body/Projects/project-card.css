@@ -1,0 +1,196 @@
+.project-card {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 0.5rem 0;
+}
+
+.left-col {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  margin-right: 1.5rem;
+  margin-right: 2.625rem;
+}
+
+.project-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.project-links {
+  display: flex;
+  margin-top: 0.75rem;
+}
+
+.project-link-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  background: aquamarine;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.375rem;
+  border-radius: 0.25rem;
+}
+
+.project-link-button i {
+  display: flex;
+  align-items: center;
+  margin-right: 0.25rem;
+}
+
+.project-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.project-description {
+  width: 90%;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+.tag {
+  background: #84fff7;
+  background: #00d9ff;
+  background: #95d8ff;
+  margin-right: 0.375rem;
+  margin-bottom: 0.375rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.project-image {
+  /* height: 15rem;
+  margin-right: 30.5rem; */
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 0.5rem;
+}
+
+/* 1400 */
+@media only screen and (max-width: 87.5rem) {
+  .project-description {
+    width: 100%;
+  }
+
+  .project-image {
+    width: 55%;
+    margin-left: 23%;
+  }
+}
+
+/* 1200 */
+@media only screen and (max-width: 75rem) {
+  .project-image {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+
+/* 980 */
+@media only screen and (max-width: 61.25rem) {
+  .project-image {
+    width: 70%;
+    margin-left: 25%;
+  }
+}
+
+/* 930 */
+@media only screen and (max-width: 58.125rem) {
+  .project-image {
+    width: 75%;
+    margin-left: 25%;
+  }
+}
+
+/* 905 */
+@media only screen and (max-width: 56.5625rem) {
+  .project-image {
+    margin-left: 17%;
+  }
+}
+
+/* 880 */
+@media only screen and (max-width: 55rem) {
+  .project-image {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+/* 830 */
+@media only screen and (max-width: 51.875rem) {
+  .project-image {
+    width: 85%;
+    margin-left: 7%;
+  }
+}
+
+/* 768 */
+@media only screen and (max-width: 48rem) {
+  .project-card {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-col {
+    width: 65%;
+    margin: 0;
+  }
+
+  .rigth-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-image {
+    width: 65%;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+/* 624 */
+@media only screen and (max-width: 39rem) {
+  .left-col {
+    width: 80%;
+  }
+
+  .project-image {
+    width: 80%;
+  }
+}
+
+/* 580 */
+@media only screen and (max-width: 36.25rem) {
+  .left-col {
+    width: 90%;
+  }
+
+  .project-image {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 30rem) {
+  .left-col {
+    width: 100%;
+  }
+
+  .project-image {
+    width: 100%;
+  }
+}
