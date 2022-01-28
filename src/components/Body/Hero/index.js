@@ -7,12 +7,17 @@ function Hero() {
       <div className="hero-top">
         <div className="hero-left">
           <div className="hero-text">
-            Hi 👋, I'm <span className="hero-name">Don Forrest Usbal</span>
+            <span className="hero-greeting">Hi 👋, I'm</span>
             <br />
-            a 19-year-old from the Philippines. <br />
-            Specializing in building exceptional websites. <br />
-            Check out my latest <a href="#projects" className="projects-link">projects.</a>
+            <span className="hero-name">Don Forrest</span>
+            <br />
           </div>
+          {/* <p className="hero-title">Software engineer</p> */}
+          <p className="hero-description">
+            I'm a Software engineer specializing in building an exceptional
+            websites. <br />
+            Check out my latest <a href="#projects">works.</a>
+          </p>
         </div>
         <div className="hero-right">
           <img

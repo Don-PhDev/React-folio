@@ -10,20 +10,32 @@
 }
 
 .hero-text {
-  font-size: 1.25rem;
+  font-size: 2.5rem;
   line-height: 1.5;
   letter-spacing: 0.0625rem;
   user-select: none;
 }
 
-.projects-link {
+.hero-greeting {
+  font-size: 1.125rem;
+}
+
+.hero-description {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.hero-description a {
   text-decoration: none;
   color: #5526fa;
 }
 
 .hero-name {
   color: #5526fa;
-  font-size: 1.5rem;
+  font-size: 3.75rem;
+  font-weight: 600;
+  margin-left: -0.1875rem;
 }
 
 .hero-image {
@@ -57,6 +69,20 @@
 
   .hero-image {
     height: 18.75rem;
+  }
+}
+
+@media only screen and (max-width: 62.125rem) {
+  .hero-name {
+    margin-left: 0;
+    line-height: 1.2;
+  }
+}
+
+@media only screen and (max-width: 58.625rem) {
+  .hero-name {
+    margin-left: 0;
+    line-height: 1.2;
   }
 }
 
