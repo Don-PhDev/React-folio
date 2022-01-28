@@ -10,10 +10,21 @@ function Mobile({ isOpen, setIsOpen }) {
         <div className="mobile-link">
           <ul>
             <li>
-              <i class="fi fi-rr-info link-icon"></i>
+              <i class="fi fi-rr-home link-icon"></i>
             </li>
             <li>
               <a href="#hero">Home</a>
+            </li>
+          </ul>
+        </div>
+
+        <div className="mobile-link">
+          <ul>
+            <li>
+              <i class="fi fi-rr-info link-icon"></i>
+            </li>
+            <li>
+              <a href="#about">About</a>
             </li>
           </ul>
         </div>

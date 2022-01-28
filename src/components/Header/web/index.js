@@ -5,7 +5,13 @@ function Web() {
     <div className="web">
       <div className="web-link">
         <a href="#hero">
-          <i class="fi fi-rr-info link-icon"></i>Home
+          <i class="fi fi-rr-home link-icon"></i>Home
+        </a>
+      </div>
+
+      <div className="web-link">
+        <a href="#about">
+          <i class="fi fi-rr-info link-icon"></i>About
         </a>
       </div>
 
