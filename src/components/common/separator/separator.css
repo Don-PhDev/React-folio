@@ -1,23 +1,23 @@
 .separator {
   background-image: linear-gradient(
     to right top,
-      #9c51b6,
-      #9847c1,
-      #913ecd,
-      #8635d9,
-      #772de7,
-      #5555f6,
-      #2e70fd,
-      #0086ff,
-      #00aeff,
-      #00ceff,
-      #00e9e9,
-      #7fffd4
-    );
+    #9c51b6,
+    #9847c1,
+    #913ecd,
+    #8635d9,
+    #772de7,
+    #5555f6,
+    #2e70fd,
+    #0086ff,
+    #00aeff,
+    #00ceff,
+    #00e9e9,
+    #7fffd4
+  );
   height: 0.5rem;
   width: 30%;
   border-radius: 0.1875rem;
-  margin: 1rem 0;
+  margin: 1.25rem 0;
 }
 
 @media only screen and (max-width: 100rem) {
