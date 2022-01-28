@@ -1,4 +1,5 @@
 import Hero from "./Hero/index";
+import About from "./About/index";
 import Skills from "./Skills/index";
 import Projects from "./Projects/index";
 import Contact from "./Contact/index";
@@ -10,6 +11,11 @@ function Body() {
     <div className="body">
       <section id="hero">
         <Hero />
+      </section>
+
+      <section id="about">
+        <Separator />
+        <About />
       </section>
 
       <section id="skills">
