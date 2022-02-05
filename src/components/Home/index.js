@@ -1,6 +1,5 @@
 import Header from "../Header/index";
 import Body from "../Body/index";
-import Footer from "../Footer/index";
 import "./home.css";
 
 function Home() {
@@ -12,10 +11,6 @@ function Home() {
 
       <div>
         <Body />
-      </div>
-
-      <div>
-        <Footer />
       </div>
     </div>
   );
