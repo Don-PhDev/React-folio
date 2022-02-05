@@ -1,4 +1,3 @@
-import Socials from "../../common/socials/index";
 import "./about.css";
 
 function About() {
@@ -38,13 +37,13 @@ function About() {
               about this website, I'd be glad to hear that 🤗).
             </div>
             <a href="#curriculum-vitae" className="download-cv">
-              Download CV
+              <span>Download Resume</span>
             </a>
           </div>
           <div className="about-right">
             <img
               src={require("../../../assets/don-forrest.jpeg")}
-              alt="Don Forrest image"
+              alt="Don Forrest"
               className="about-image"
             />
           </div>

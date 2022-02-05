@@ -9,6 +9,10 @@
 }
 
 .about-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   font-size: 1.125rem;
   font-weight: 400;
   margin: 1rem 0 2rem;
@@ -30,7 +34,98 @@
   opacity: 1;
 }
 
+.about-right {
+  margin-left: 2rem;
+}
+
 .about-image {
   height: 500px;
   border-radius: 0.25rem;
+}
+
+@media only screen and (max-width: 87.5rem) {
+  .about-image {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 68.75rem) {
+  .about-text {
+    font-size: 1rem;
+    letter-spacing: 0.025rem;
+  }
+
+  .about-image {
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 62.5rem) {
+  .about-right {
+    margin-left: 0;
+  }
+
+  .about-image {
+    margin-left: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 56.25rem) {
+  .about-top {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-image {
+    margin-top: 2rem;
+    margin-left: 0;
+  }
+
+  .about-left {
+    max-width: 80%;
+    margin-top: 2rem;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+
+  .about-text br {
+    display: none;
+  }
+
+  .download-cv {
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    margin: 0 30%;
+    vertical-align: middle;
+  }
+}
+
+@media only screen and (max-width: 40.75rem) {
+  .about-image {
+    height: 320px;
+  }
+
+  .about-left {
+    margin-top: 1rem;
+  }
+
+  .download-cv {
+    margin: 0 28%;
+  }
+}
+
+@media only screen and (max-width: 34.5rem) {
+  .download-cv {
+    margin: 0 24%;
+  }
+}
+
+@media only screen and (max-width: 28.25rem) {
+  .download-cv {
+    margin: 0 20%;
+  }
 }
