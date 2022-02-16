@@ -8,37 +8,24 @@ function About() {
         <div className="about-top">
           <div className="about-left">
             <div className="about-text">
-              Hello! My full name is Don Forrest Usbal
-              <br />
-              I love creating things for the web.
-              <br />
-              I've been programming since I was 16 years old,
-              <br />
+              <p>I love creating things for the web.</p>
+              <p>I've been programming since I was 16 years old,
               and up until now, my enjoyment and excitement
-              <br />
-              seeing my programs work hasn't changed.
-              <br />
-              <br />
-              I've strived to learn and improve my skills every day,
-              <br />
-              pulling numerous all-nighters.
-              <br />
+              seeing my programs work hasn't changed.</p>
+              <p>I've strived to learn and improve my skills every day,
+              pulling numerous all-nighters.</p>
               I gain the most satisfaction and confidence
-              <br />
               when challenged, and for that reason,
-              <br />
               I continually pushed myself to do things
-              <br />
               I'd never accomplished before.
-              <br />I still have a lot to improve (for example,
-              <br />
+              I still have a lot to improve (for example,
               if you have constructive criticism or suggestion
-              <br />
               about this website, I'd be glad to hear that 🤗).
             </div>
-            <a href="#curriculum-vitae" className="download-cv">
-              <span>Download Resume</span>
-            </a>
+              <a download href={require("../../../assets/Don.Usbal.Software.Engineer.16feb2022.resume.pdf")} className="download-cv">
+            Download Resume
+              </a>
+
           </div>
           <div className="about-right">
             <img
