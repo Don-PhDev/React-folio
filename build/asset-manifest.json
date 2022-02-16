@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.506cf2c2.css",
+    "main.js": "/static/js/main.439e3ab4.js",
+    "static/js/787.612b19a2.chunk.js": "/static/js/787.612b19a2.chunk.js",
+    "static/media/don-forrest.jpeg": "/static/media/don-forrest.d22372f6b7f51fa308e4.jpeg",
+    "static/media/resume.pdf": "/static/media/resume.4a92da18b99f721adcc4.pdf",
+    "static/media/programming.svg": "/static/media/programming.e297744f1e270e18c18e3007b6c66446.svg",
+    "index.html": "/index.html",
+    "main.506cf2c2.css.map": "/static/css/main.506cf2c2.css.map",
+    "main.439e3ab4.js.map": "/static/js/main.439e3ab4.js.map",
+    "787.612b19a2.chunk.js.map": "/static/js/787.612b19a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.506cf2c2.css",
+    "static/js/main.439e3ab4.js"
+  ]
+}
